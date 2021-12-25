@@ -1,0 +1,31 @@
+{
+    "name": "Shadowsocks obfs - Docker",
+    "description": "Deploy Shadowsocks Server",
+    "keywords": [
+        "shadowsocks",
+        "obfs",
+        "simple-obfs",
+        "docker"
+    ],
+    "env": {
+        "PASSWORD": {
+            "description": "Set your password",
+            "value": "obfspasswd"
+        },
+        "METHOD": {
+            "description": "Define your method",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "OBFS_SERVER": {
+            "description": "Define your obfs server type",
+            "value": "tls"
+        },
+        "PORT": {
+            "description": "Define your port",
+            "value": "443"
+        }
+    },
+    "website": "https://github.com/lafawkes/docker-shadowsocks-obfs",
+    "repository": "https://github.com/lafawkes/docker-shadowsocks-obfs",
+    "stack": "container"
+}
