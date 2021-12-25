@@ -20,7 +20,7 @@
             "description": "Define your obfs server type",
             "value": "tls"
         },
-        "PORT": {
+        "LISTEN_PORT": {
             "description": "Define your port",
             "value": "443"
         }
